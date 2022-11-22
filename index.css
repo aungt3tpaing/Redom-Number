@@ -1,0 +1,48 @@
+body {
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	border: 1px solid #44403c;
+	border-radius: 20px;
+	box-shadow: 9px 10px 10px 10px #44403c;
+	padding: 30px;
+}
+
+img {
+	margin-left: 150px;
+}
+
+.board {
+	border: 1px dashed black;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+/*
+h1, h2 {
+	letter-spacing: 3px;
+	text-align: center;
+	color: blue;
+}
+
+*/
+
+h1, h2 {
+	text-align: center;
+}
+
+#guess {
+	border: 2px solid grey;
+	margin-left: 160px;
+	padding: 10px;
+}
+
+.btn {
+	padding: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+}
